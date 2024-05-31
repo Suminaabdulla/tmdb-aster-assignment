@@ -89,15 +89,11 @@ npx react-native run-ios
 ### Using the Application
 
 - **Search for Movies:** Use the search bar at the top of the home screen to search for movies by title.
-- **View Movie Details:** Click on a movie from the list to view more details about it.
 
 ## Contributing
 
 To contribute to this project, fork the repository and create a pull request with your changes.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 
 ## Acknowledgements
 

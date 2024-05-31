@@ -9,10 +9,7 @@
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* tmdbAsterAssignmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* tmdbAsterAssignmentTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
-		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		AC4F2870B901A49D6D3C4870 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 641AC50412BED791FF79FA62 /* PrivacyInfo.xcprivacy */; };
 		C521E668C780119DC1BDF90D /* libPods-tmdbAsterAssignment-tmdbAsterAssignmentTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D6CDD26799758F0018CCDD /* libPods-tmdbAsterAssignment-tmdbAsterAssignmentTests.a */; };
 		CD84BBCC4C21F841EC503553 /* libPods-tmdbAsterAssignment.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 317D129177F667AFFD32EA5E /* libPods-tmdbAsterAssignment.a */; };
 /* End PBXBuildFile section */
@@ -42,11 +39,13 @@
 		15661D3F3D2DE500EE97E9D5 /* Pods-tmdbAsterAssignment-tmdbAsterAssignmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tmdbAsterAssignment-tmdbAsterAssignmentTests.debug.xcconfig"; path = "Target Support Files/Pods-tmdbAsterAssignment-tmdbAsterAssignmentTests/Pods-tmdbAsterAssignment-tmdbAsterAssignmentTests.debug.xcconfig"; sourceTree = "<group>"; };
 		317D129177F667AFFD32EA5E /* libPods-tmdbAsterAssignment.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-tmdbAsterAssignment.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BF2286A6972F32FF90A8D0A /* Pods-tmdbAsterAssignment-tmdbAsterAssignmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tmdbAsterAssignment-tmdbAsterAssignmentTests.release.xcconfig"; path = "Target Support Files/Pods-tmdbAsterAssignment-tmdbAsterAssignmentTests/Pods-tmdbAsterAssignment-tmdbAsterAssignmentTests.release.xcconfig"; sourceTree = "<group>"; };
-		641AC50412BED791FF79FA62 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = tmdbAsterAssignment/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		641AC50412BED791FF79FA62 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = tmdbAsterAssignment/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		78D6CDD26799758F0018CCDD /* libPods-tmdbAsterAssignment-tmdbAsterAssignmentTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-tmdbAsterAssignment-tmdbAsterAssignmentTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = tmdbAsterAssignment/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DBDA5ADCD1A2386796FB0033 /* Pods-tmdbAsterAssignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tmdbAsterAssignment.debug.xcconfig"; path = "Target Support Files/Pods-tmdbAsterAssignment/Pods-tmdbAsterAssignment.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F1FE75372C0A489000987730 /* AntDesign.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = AntDesign.ttf; path = "../../../brenfirst-mobileapp/node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		F1FE75382C0A489B00987730 /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = MaterialIcons.ttf; path = "../../../brenfirst-mobileapp/node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +120,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				F1FE75342C0A487D00987730 /* Resources */,
 				13B07FAE1A68108700A75B9A /* tmdbAsterAssignment */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* tmdbAsterAssignmentTests */,
@@ -151,6 +151,15 @@
 				3BF2286A6972F32FF90A8D0A /* Pods-tmdbAsterAssignment-tmdbAsterAssignmentTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		F1FE75342C0A487D00987730 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F1FE75382C0A489B00987730 /* MaterialIcons.ttf */,
+				F1FE75372C0A489000987730 /* AntDesign.ttf */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,7 +193,6 @@
 				1352E95350EC6F004AB27BA0 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
-				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				C4A907EC073854BAC94CD9C2 /* [CP] Embed Pods Frameworks */,
 				8BE694CEAA78A5C6F65A4114 /* [CP] Copy Pods Resources */,
@@ -239,16 +247,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		13B07F8E1A680F5B00A75B9A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
-				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				AC4F2870B901A49D6D3C4870 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -590,10 +588,7 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;
@@ -665,10 +660,7 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;

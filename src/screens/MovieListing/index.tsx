@@ -36,6 +36,7 @@ const MovieListing = () => {
 
   const handleSearch = (query: string) => {
     setSearch(query);
+    setPage(1);
     if (query) {
       dispatch(searchMovies({query, page: 1}));
     } else {
